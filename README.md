@@ -1,1 +1,3 @@
 # Juego-blackjack
+
+PRACTICAS DE JAVASCRIPT
