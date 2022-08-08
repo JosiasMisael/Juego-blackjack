@@ -1,3 +1,4 @@
+//Josias Misael Practica
 const miMudulo =(() => {
   "use stric";
   let deck = [],
