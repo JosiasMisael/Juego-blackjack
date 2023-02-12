@@ -19,13 +19,13 @@ const miMudulo =(() => {
     deck = [];
     for (let i = 2; i <= 10; i++) {
       for (let j = 0; j < tipos.length; j++) {
-        deck.push(i + tipos[j]);
+        deck.push(i + tipos[ j]);
       }
     }
     for (const tipo of tipos) {
       for (const especial of especiales) {
         deck.push(especial + tipo);
-      }
+      } 
     }
     return _.shuffle(deck);
   };
@@ -78,7 +78,7 @@ const miMudulo =(() => {
         }, 10);
     };
     //TURNO COMPUTADORA
-    const turnoComputadora = (puntosMinimos) => {
+    const turnoComputadora = (puntosMinimos) => {  
         let puntosComputadora = 0;
         do {
             const carta = pedirCarta();
